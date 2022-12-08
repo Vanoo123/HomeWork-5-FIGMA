@@ -39,6 +39,7 @@
     justify-content: center;
     gap: 20px;
 }
+
 .sign_box {
     width: 280px;
     height: 60px;
@@ -245,4 +246,69 @@ td {
   
 td span {
     padding-left: 700px;
+}
+
+.settings_title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #515151;
+}
+
+.section_wrapper {
+    width: 250px;
+    margin: 62px;
+}
+
+.submit {
+    background-color: #2F80ED;
+    padding: 15px 35px 15px 35px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.check_box {
+    border: 1px solid #4F4F4F;
+    width: 250px;
+    padding: 15px;
+    margin-top: 70px;
+}
+
+.check_box label {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.chk_bx {
+    margin-left: 95px;
+    width: 27px;
+    height: 27px;
+}
+
+.placeholders_box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.placeholders_box input{
+    padding: 15px;
+    width: 250px;
+    border: 1px solid #828282;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
 }
