@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.child1 {
+    height: 100vh;
+    width: 25%;
+    background-color: #2F80ED;
+}
+
+.child2 {
+    width: 75%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.main_box {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.box_header {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.box_header a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
