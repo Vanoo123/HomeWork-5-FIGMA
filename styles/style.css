@@ -39,7 +39,6 @@
     justify-content: center;
     gap: 20px;
 }
-
 .sign_box {
     width: 280px;
     height: 60px;
@@ -104,4 +103,146 @@
     width: 880px;
     height: 580px;
     padding: 50px;
+}
+
+.dashboard_buttons {
+    padding: 150px 0 0 60px;   
+}
+
+.dashboard_buttons a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dashboard_box a {
+    display: flex;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.logout_box {
+    margin-top: 350px;
+}
+
+.logout_box a {
+    display: flex;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.settings_box {
+    margin-top: 30px;
+}
+
+.settings_box a {
+    display: flex;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.dashboard_wrapper {
+    display: block;
+    margin: 50px 0 0 50px;
+}
+
+.dashboard_title {
+    color: #515151;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.view_title {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.view_title h3 {
+    margin-top: 30px;
+}
+
+.three_box {
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 170px 0 0;
+}
+
+.three_box:hover {
+    cursor: pointer;
+}
+
+.three_box p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.day_box {
+    background-color: #333333;
+    width: 243px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.week_box {
+    background-color: #333333;
+    width: 243px;
+    height: 150px;
+    border-radius: 25px;
+    
+}
+
+.month_box {
+    background-color: #333333;
+    width: 243px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    padding-top: 30px;
+}
+
+.text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.page_box {
+    margin-top: 20px;
+}
+
+.table_box {
+    margin-top: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+  
+td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;  
+}
+  
+td span {
+    padding-left: 700px;
 }
